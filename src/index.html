@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveVideo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <section class="registration">
+        <div class="registration__block">
+            <img src="icons/allergan-vector-logo.svg" alt="allergan-logo">
+            <div class="registration__title">Реєстрація</div>
+                <form class="registration-form" action="#">
+                    <div class="registration-form__titles">Ім'я</div>
+                    <input name="name" required placeholder="Ваше прізвище" type="text">
+                    <div class="registration-form__titles">Прізвище</div>
+                    <input name="name" required placeholder="Ваше ім'я" type="text">
+                    <div class="registration-form__titles">Ваш E-mail</div>
+                    <input name="email" required placeholder="example@example.com" type="email">
+                    <div class="registration-form__titles">Ваш телефон</div>
+                    <input name="phone" required placeholder="Телефон" type="number">
+                    <div class="registration-form__titles">Місце роботи</div>
+                    <input name="name" required placeholder="Місце роботи" type="text">
+                    <div class="registration-form__titles registration-form__titles_center">Згода на обробку персональних даних</div>
+                    <input id="checkbox" name="checkbox" type="checkbox">
+
+                <div class="wrapper">
+                    <button class="button">Зареєструватись</button>
+                    <button class="button button_right">Увійти</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="overlay">
+        <div class="modal" id="agreement">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Згода на обробку персональних даних
+            </div>
+            <div class="modal__descr">*Я надаю Корпорації «Артеріум» свою однозначну усвідомлену згоду на обробку моїх персональних даних (прізвище, ім’я, по-батькові, спеціальність, місто, номер мобільного телефону, адресу електронної пошти) з метою інформування мене про новини компанії, її продукти, інформування, запрошення та\або реєстрацію на спеціалізовані заходи (семінари, симпозіуми, конференції тощо) для медичних, фармацевтичних працівників, у тому числі здійснювати збір, обробку, використання, зміну, доповнення, передачу третім особам без подальшого повідомлення мене про таку передачу моїх персональних даних з вказаною вище метою.<br><span>1.</span> Вікторина буде проходити на базі програмного забезпечення Slido, програма повністю автоматизована, що виключає підробку даних.<br><span>2.</span> Вікторина проводиться виключно для спеціалістів медичної галузі, які взяли участь у науково-практичному вебінарі на тему «Персоніфікований підхід в сучасній неврології», який проходить 29 жовтня 2020 року в онлайн форматі, з 16:00 до 17:30, тривалість вікторини до 10 хвилин. У вікторині можуть прийняти участь всі бажаючі учасники вебінару, без виключення.<br><span>3.</span> Для участі у вікторині користувач має зареєструватися, повністю прописати своє прізвище та ім’я по паспорту.<br><span>4.</span> Переможців у вікторині оголошує система, два основних критерії перемоги – швидкість відповіді та правильність. Кожне питання передбачає лише одну правильно відповідь.<br><span>5.</span> Переможцями у вікторини стають ті користувачі, які за результатами вікторини, займуть з 1-го по 70- місце. Користувач побачить своє місце одразу після відповідей на останнє питання. Учасники, які займуть місця починаючи з 71, не отримають призів.<br><span>6.</span> Після оголошення переможців, з кожним з переможців зв’яжеться представник Корпорації «Артеріум», протягом 5 робочих днів, та проінформує про час та місце отримання призу.<br><span>7.</span> Вартість призу - до 660 грн.<br><span>8.</span> Правила вікторини можуть бути змінені без додаткового оголошення .  
+            </div>
+        </div>
+        <div class="modal" id="login">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Введіть свій e-mail
+            </div>
+            <form class="login-form" action="#">
+                <input name="email" required placeholder="example@example.com" type="email">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
