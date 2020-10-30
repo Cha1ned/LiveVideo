@@ -23,14 +23,14 @@
                     <input name="phone" required placeholder="Телефон" type="number">
                     <div class="registration-form__titles">Місце роботи</div>
                     <input name="name" required placeholder="Місце роботи" type="text">
-                    <div class="registration-form__titles registration-form__titles_center">Згода на обробку персональних даних</div>
+                    <div data-modal="agreement" class="registration-form__titles registration-form__titles_center">Згода на обробку персональних даних</div>
                     <input id="checkbox" name="checkbox" type="checkbox">
 
                 <div class="wrapper">
                     <button class="button">Зареєструватись</button>
-                    <button class="button button_right">Увійти</button>
                 </div>
                 </form>
+                <div data-modal="login" class="button_login">Увійти</div>
             </div>
         </div>
     </section>
@@ -49,8 +49,16 @@
             </div>
             <form class="login-form" action="#">
                 <input name="email" required placeholder="example@example.com" type="email">
+                <button class="button button_center">Увійти</button>
             </form>
         </div>
     </div>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+
 </body>
 </html>

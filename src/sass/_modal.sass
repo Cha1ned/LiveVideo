@@ -14,7 +14,7 @@
     transform: translate(-50%, -50%)
     background-color: #ffffff
     width: 600px
-    min-height: 300px
+    min-height: 200px
     font-size: 14px
     line-height: 20px
     &__close
@@ -25,6 +25,9 @@
         line-height: 21px
         color: $blue
         cursor: pointer
+        transition: 0.5s all
+        &:hover
+            color: $green
     &__subtitle
         color: $blue
         font-weight: 700
@@ -41,3 +44,4 @@
     display: none
 #login
     display: none
+    width: 500px
